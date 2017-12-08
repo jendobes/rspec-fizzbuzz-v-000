@@ -5,4 +5,14 @@ def fizzbuzz(number)
   end
 end
 
-fizz_15 = fizzbuzz(15)
+def fizzbuzz(number)
+  if (number % 3) == 0
+    return "Fizz"
+  end
+end
+
+def fizzbuzz(number)
+  if (number % 5) == 0
+    return "Buzz"
+  end
+end
